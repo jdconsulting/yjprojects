@@ -27,6 +27,8 @@ namespace SDKTemplate
             new Scenario() { Title="Client: Connect to a server", ClassType=typeof(Scenario2_Client) },
             new Scenario() { Title="Server: Publish foreground", ClassType=typeof(Scenario3_ServerForeground) },
             new Scenario() { Title="Proximity Display by value", ClassType=typeof(Scenario4_Proximity_by_Value) },
+            new Scenario() { Title="Client: Connect and Display Services", ClassType=typeof(Scenario5_Get_Device_Services) },
+
         };
 
         public string SelectedBleDeviceId;

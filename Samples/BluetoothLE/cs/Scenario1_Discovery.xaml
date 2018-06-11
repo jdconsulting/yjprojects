@@ -46,6 +46,9 @@
         <StackPanel Margin="0,0,0,10">
             <TextBlock Text="Description:" Style="{StaticResource SampleHeaderTextStyle}"/>
             <TextBlock Style="{StaticResource ScenarioDescriptionTextStyle}" Text="Discover GATT servers"/>
+            <TextBlock TextWrapping="Wrap">\
+                
+            </TextBlock>
             <TextBlock TextWrapping="Wrap">
                 Enumerate nearby Bluetooth Low Energy devices,
                 then select and pair a device, so that it can be used
